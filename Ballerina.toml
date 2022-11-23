@@ -1,0 +1,19 @@
+[package]
+org = "wso2ohtest"
+name = "healthcare.fhir.r4.api.patient"
+version = "0.1.1"
+distribution = "2201.1.2"
+template=true
+
+[build-options]
+observabilityIncluded = true
+
+[[dependency]]
+org = "wso2healthcare"
+name = "healthcare.fhir.r4"
+version = "0.1.0"
+
+[[dependency]]
+org="wso2healthcare"
+name="healthcare.base"
+version="0.1.0"
